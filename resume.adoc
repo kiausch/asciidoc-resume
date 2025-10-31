@@ -1,0 +1,74 @@
+= John Doe
+
+[.info]
+== !
+
+image:portrait.jpg[role=profil]
+
+[contact]
+- image:picto/calendar-account-outline.svg[role=picto] 1 January 1980
+- image:picto/map-marker-outline.svg[role="picto"] Example Street 123, +
+00000 Sample City
+- image:picto/cellphone.svg[role="picto"] +1 555 0000000
+- image:picto/email-outline.svg[role="picto"] john.doe@example.com
+- image:picto/web.svg[role="picto"] www.example.com
+- image:picto/github.svg[role="picto"] github.com/example-user
+
+=== Languages
+- English (native)
+- German (fluent)
+- Spanish (basic)
+
+=== Programming Languages
+- C, C++
+- Java, Go, Rust
+- Python, JavaScript
+- HTML, CSS, SQL
+- Bash, PowerShell
+
+=== Microcontrollers
+- ESP32
+- STM32
+- Raspberry Pi Pico
+- ATmega
+
+=== Miscellaneous
+- PCB design
+- 3D printing
+- Cloud deployment
+- CI/CD pipelines
+
+[.main]
+== John Doe
+
+Embedded software engineer with experience in low-level programming, IoT systems, and cloud-connected devices. This is a sample description for demonstration purposes only.
+
+=== Skills
+==== Embedded Development
+Firmware development for microcontrollers and SoCs, including bootloaders and real-time applications
+
+==== Hardware Integration
+PCB prototyping, sensor integration, and debugging with lab equipment
+
+==== DevOps & Tooling
+Automating build pipelines, containerization, and monitoring embedded systems
+
+=== Professional Experience
+==== Embedded Software Consultant
+Freelance | since 01/2025
+
+- Firmware for industrial sensors
+- Integration with cloud APIs
+
+==== Senior Embedded Developer
+SampleTech GmbH, Sample City | 03/2015 – 12/2024
+
+- Developed firmware for smart home devices
+- Designed BLE-enabled software architecture
+- Implemented OTA updates
+
+=== Education
+==== Bachelor of Engineering in Computer Systems
+Sample University | 10/2005 – 07/2010
+
+focus: Embedded systems, digital electronics, and software engineering

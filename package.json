@@ -1,0 +1,16 @@
+{
+  "name": "resume-template",
+  "version": "1.0.0",
+  "description": "Asciidoc resume template for use with asciidoctor-web-pdf",
+  "main": "index.js",
+  "scripts": {
+    "build": "asciidoctor-web-pdf resume.adoc --template-require ./template.js"
+  },
+  "keywords": [],
+  "author": "Michael Kiausch",
+  "license": "MIT",
+  "devDependencies": {
+    "@asciidoctor/core": "^2.2.8",
+    "asciidoctor-pdf": "^1.0.0-alpha.16"
+  }
+}

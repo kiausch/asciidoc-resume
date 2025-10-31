@@ -1,0 +1,148 @@
+@page {
+  size: 210mm 297mm;
+  margin: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12pt;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  color: #36435a;
+  height: 29.7cm;
+  width: 21cm;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen {
+  body {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.main h1 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 5mm;
+  margin-bottom: 5mm;
+}
+
+.main h2 {
+  margin-top: .75em;
+  font-size: 1.5em;
+  font-weight: 500;
+  border-bottom: 1px solid #cdd2da;
+  margin-bottom: 0.3em;
+  padding-bottom: 0.1em;
+}
+
+.main h3 {
+  margin-top: 0.6em;
+  font-size: 1.0em;
+  font-weight: 750;
+}
+
+.info h2 {
+  font-size: 1.3em;
+  text-align: left;
+  padding-top: 5mm;
+  padding-bottom: 1mm;
+  font-weight: 650;
+}
+
+.info .contact {
+  text-align: left;
+}
+
+.info .contact a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.info h3 {
+  margin-top: 2rem;
+  font-size: .85em;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.info ul {
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  padding: 0;
+}
+
+ul.contact {
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  display: flex;
+  height: 100%;
+}
+
+#content>.info {
+  box-sizing: border-box;
+  width: 70mm;
+  background-color: #36435a;
+  color: #fef8f5;
+  padding-top: 5.5mm;
+  padding-left: 5.5mm;
+  padding-right: 5.5mm;
+  text-align: left;
+}
+
+#content>.main {
+  box-sizing: border-box;
+  width: calc(210mm - 70mm);
+  padding-left: 9mm;
+  padding-right: 9mm;
+  padding-top: 5.5mm;
+}
+
+.profil {
+  margin: auto;
+  display: block;
+}
+
+.profil>img {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  margin-bottom: 6mm;
+}
+
+ul.contact li p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+span.picto {
+  margin-right: 0.3em;
+}
+
+span.picto>img {
+  height: 1.1em;
+  filter: invert(1);
+}
