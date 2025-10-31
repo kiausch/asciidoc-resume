@@ -31,6 +31,12 @@ asciidoctor-web-pdf resume.adoc --template-require ./template.js
 Refer to the [asciidoctor-web-pdf documentation](https://github.com/ggrossetie/asciidoctor-web-pdf?tab=readme-ov-file#using-docker) if you prefer docker over a local installation.
 
 
+## Example
+![image screenshot](example-output/screenshot.jpg)
+
+[html file](example-output/resume.html) [pdf file](example-output/resume.pdf)
+
+
 ## Credits
 - [asciidoctor-web-pdf](https://github.com/ggrossetie/asciidoctor-web-pdf)
 - [Nunito](https://github.com/googlefonts/NunitoSans) font via [Google Fonts](https://fonts.google.com/specimen/Nunito+Sans)
