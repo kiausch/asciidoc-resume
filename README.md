@@ -1,8 +1,9 @@
 # README
 
 This repository contains an AsciiDoc template for resumes for use with [asciidoctor-web-pdf](https://github.com/ggrossetie/asciidoctor-web-pdf).
-The template is based on the included example resume.
+The template is based on the [example resume](https://github.com/ggrossetie/asciidoctor-web-pdf/tree/main/examples/resume) included in asciidoctor-web-pdf.
 
+NOTE: This is designed as a one-page layout on A4 paper. Page breaks are currently not properly handled. Feel free to fork/submit a pull-request :)
 
 
 ## Usage
