@@ -11,6 +11,7 @@ module.exports = {
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div id="infoBg"></div>
   <div id="content">
     ${node.getContent()}
   </div>
