@@ -72,3 +72,16 @@ SampleTech GmbH, Sample City | 03/2015 – 12/2024
 Sample University | 10/2005 – 07/2010
 
 focus: Embedded systems, digital electronics, and software engineering
+
+[.newpage]
+=== Projects
+==== Example Electronics project
+Example Customer | 01/2025 – 05/2025
+
+- designed schematics and circuit board for example project
+- Implemented bootloader, firmware and user interface
+
+==== Example Software Project
+Open Source Project | since 01/2024
+
+- implemented business logic on example app
