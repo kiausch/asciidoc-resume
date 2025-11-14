@@ -3,7 +3,7 @@
 This repository contains an AsciiDoc template for resumes for use with [asciidoctor-web-pdf](https://github.com/ggrossetie/asciidoctor-web-pdf).
 The template is based on the [example resume](https://github.com/ggrossetie/asciidoctor-web-pdf/tree/main/examples/resume) included in asciidoctor-web-pdf.
 
-NOTE: This is designed as a one-page layout on A4 paper. Page breaks are currently not properly handled. Feel free to fork/submit a pull-request :)
+NOTE: This is designed for A4 paper, other paper sizes might require changes on the styles.css file
 
 
 ## Usage
@@ -36,6 +36,10 @@ Refer to the [asciidoctor-web-pdf documentation](https://github.com/ggrossetie/a
 ![image screenshot](example-output/screenshot.jpg)
 
 [html file](example-output/resume.html) [pdf file](example-output/resume.pdf)
+
+
+## Multiple Pages
+To add a manual page break add `[.newpage]` before a section header (see example). Automatic page breaks are not handled very well at the moment, use manual breaks.
 
 
 ## Credits
