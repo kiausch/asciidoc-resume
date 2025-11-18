@@ -39,7 +39,11 @@ Refer to the [asciidoctor-web-pdf documentation](https://github.com/ggrossetie/a
 
 
 ## Multiple Pages
-To add a manual page break add `[.newpage]` before a section header (see example). Automatic page breaks are not handled very well at the moment, use manual breaks.
+To add a manual page break add `[.newpage]` before a section header (see example).
+
+
+## Puppeteer
+Because the puppeteer version used in asciidoctor-web-pdf is pretty outdated (15.4.0), the dependency is overridden in the package.json to use a more recent version (24.30.0). The newer version of the Chrome browser used in the newer puppeteer version has better support for paged media.
 
 
 ## Credits
