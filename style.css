@@ -11,8 +11,6 @@ body {
   font-style: normal;
   color: #36435a;
   margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 #infoBg {
@@ -25,13 +23,6 @@ body {
   height: 100vh;
   background-color: #36435a;
   z-index: -100;
-}
-
-@media only screen {
-  body {
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-  }
 }
 
 @media print {
@@ -118,7 +109,7 @@ ul.contact {
 
 #content {
   display: flex;
-  height: 100%;
+  flex-direction: row;
 }
 
 #content>.info {
@@ -137,6 +128,7 @@ ul.contact {
   padding-left: 9mm;
   padding-right: 9mm;
   padding-top: 5.5mm;
+  box-decoration-break: clone;
 }
 
 .profil {
