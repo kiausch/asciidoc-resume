@@ -1,6 +1,6 @@
 {
   "name": "resume-template",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Asciidoc resume template for use with asciidoctor-web-pdf",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
   "devDependencies": {
     "@asciidoctor/core": "^2.2.8",
     "asciidoctor-pdf": "^1.0.0-alpha.16"
+  },
+  "overrides": {
+    "puppeteer": "24.30.0"
   }
 }
