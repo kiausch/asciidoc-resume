@@ -35,7 +35,7 @@ Refer to the [asciidoctor-web-pdf documentation](https://github.com/ggrossetie/a
 ## Example
 ![image screenshot](example-output/screenshot.jpg)
 
-[html file](example-output/resume.html) [pdf file](example-output/resume.pdf)
+[pdf file](example-output/resume.pdf)
 
 
 ## Multiple Pages
