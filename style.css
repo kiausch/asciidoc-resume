@@ -26,7 +26,8 @@ body {
   border: 0px;
   margin: 0px;
   width: 70mm;
-  height: 100vh;
+  height: calc(100vh + 1px);
+  /* note: 1px extra, otherwise there is a remaining 1px border on the bottom of the pdf page; probably some kind of mm->px rounding issue */
   background-color: var(--leftcolumn-bg-color);
   z-index: -100;
 }
@@ -123,10 +124,6 @@ ul.contact {
   padding-left: 5.5mm;
   padding-right: 5.5mm;
   text-align: left;
-  background-color: var(--leftcolumn-bg-color);
-  /* note: background-color here seems redundant because #infoBg draws the background, 
-           but for some reason there is a remaining small white border on the bottom 
-           of the page otherwise... */
 }
 
 #content>.main {
