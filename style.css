@@ -1,3 +1,9 @@
+:root {
+  --leftcolumn-bg-color: #36435a;
+  --main-text-color: #36435a;
+  --main-h2-underline-color: #cdd2da;
+}
+
 @page {
   size: A4 portrait;
   margin: 0;
@@ -9,7 +15,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 550;
   font-style: normal;
-  color: #36435a;
+  color: var(--main-text-color);
   margin: 0;
 }
 
@@ -21,7 +27,7 @@ body {
   margin: 0px;
   width: 70mm;
   height: 100vh;
-  background-color: #36435a;
+  background-color: var(--leftcolumn-bg-color);
   z-index: -100;
 }
 
@@ -60,7 +66,7 @@ ul {
   margin-top: .75em;
   font-size: 1.5em;
   font-weight: 500;
-  border-bottom: 1px solid #cdd2da;
+  border-bottom: 1px solid var(--main-h2-underline-color);
 }
 
 .main h3 {
@@ -117,6 +123,10 @@ ul.contact {
   padding-left: 5.5mm;
   padding-right: 5.5mm;
   text-align: left;
+  background-color: var(--leftcolumn-bg-color);
+  /* note: background-color here seems redundant because #infoBg draws the background, 
+           but for some reason there is a remaining small white border on the bottom 
+           of the page otherwise... */
 }
 
 #content>.main {
