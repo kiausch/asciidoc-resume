@@ -34,11 +34,12 @@ body {
 
 @media print {
   .section {
-    break-inside: avoid-page;
+    /* break-inside: avoid-page; */
   }
 
   .newpage {
     break-before: page;
+    margin-top: 0 !important;
   }
 }
 
@@ -53,27 +54,34 @@ p {
 ul {
   list-style-type: circle;
   padding-left: 30px;
-  margin: 0.2em 0em 0.4em 0em;
+  margin: 0.3em 0em 0.4em 0em;
 }
 
 .main h1 {
   font-size: 3em;
   font-weight: 400;
-  margin-top: 5mm;
   margin-bottom: 5mm;
 }
 
 .main h2 {
-  margin-top: .75em;
+  margin-top: 0;
   font-size: 1.5em;
   font-weight: 500;
   border-bottom: 1px solid var(--main-h2-underline-color);
+}
+
+.main .section2 {
+  margin-top: 1.5em;
 }
 
 .main h3 {
   margin-top: 0.5em;
   font-size: 1.2em;
   font-weight: 650;
+}
+
+.main .section3 {
+  margin-bottom: 1.2em;
 }
 
 .info h2 {
@@ -129,14 +137,8 @@ ul.contact {
 #content>.main {
   box-sizing: border-box;
   width: calc(210mm - 70mm);
-  padding-left: 9mm;
-  padding-right: 9mm;
-  padding-top: 5.5mm;
+  padding: 10mm 9mm;
   box-decoration-break: clone;
-}
-
-.main .section3 {
-  margin-bottom: 1.2em;
 }
 
 .profil {
